@@ -52,8 +52,8 @@ header {
 }
 
 .headerDescription {
-    font-family: nandakaFont;
-    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
     font-size: 12px;
 }
 
@@ -169,8 +169,8 @@ footer {
     }
 
     .headerDescription {
-        font-family: nandakaFont;
-        letter-spacing: 3px;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 1px;
         font-size: 10px;
     }
 
@@ -289,8 +289,8 @@ footer {
     }
 
     .headerDescription {
-        font-family: nandakaFont;
-        letter-spacing: 3px;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 1px;
         font-size: 8px;
     }
 
