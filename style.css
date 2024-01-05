@@ -1,0 +1,382 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: white;
+}
+
+@font-face {
+    font-family: candleFont;
+    src: url(font/CandleQuotes-EaAMe.ttf);
+}
+
+@font-face {
+    font-family: nandakaFont;
+    src: url(font/NandakaWestern-Ml6J.ttf);
+}
+
+@font-face {
+    font-family: westernFont;
+    src: url(font/WesternEastern-VB9l.ttf);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    background-color: white;
+    width: 900px;
+    border: 5px solid black;
+    padding: 35px;
+    border-radius: 30px;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerText {
+    font-family: westernFont;
+    letter-spacing: 2px;
+}
+
+.headerDescription {
+    font-family: nandakaFont;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    margin-top: 20px;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    font-family: westernFont;
+}
+
+.getJokes {
+    font-family: westernFont;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-left: 300px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.jokes-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.jokes-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+.joke {
+    font-size: 40px;
+    font-family: candleFont;
+    text-align: center;
+    font-family: westernFont;
+    letter-spacing: 5px;
+}
+
+.srcJoke {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.footerText {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headerContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+        background-color: white;
+        width: 400px;
+        border: 5px solid black;
+        padding: 20px;
+        border-radius: 30px;
+    }
+
+    img {
+        width: 300px;
+    }
+
+    .headerContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headerText {
+        font-family: westernFont;
+        letter-spacing: 2px;
+    }
+
+    .headerDescription {
+        font-family: nandakaFont;
+        letter-spacing: 3px;
+        font-size: 10px;
+    }
+
+    .inputContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    label {
+        font-family: westernFont;
+    }
+
+    .getJokes {
+        font-family: westernFont;
+        letter-spacing: 2px;
+        font-size: 20px;
+        margin-left: 80px;
+        width: 120px;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .jokes-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .jokes-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .joke {
+        font-size: 30px;
+        font-family: candleFont;
+        text-align: center;
+        font-family: westernFont;
+        letter-spacing: 5px;
+    }
+
+    .srcJoke {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 30px;
+        color: black;
+    }
+
+    a {
+        color: black;
+    }
+
+    footer {
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 5px;
+        margin-top: 10vh;
+        text-align: center;
+    }
+
+    .footerText {
+        font-family: 'Poppins', sans-serif;
+        margin-top: 20px;
+        letter-spacing: 2px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .headerContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+        background-color: white;
+        width: 280px;
+        border: 5px solid black;
+        padding: 20px;
+        border-radius: 30px;
+    }
+
+    img {
+        width: 150px;
+        margin-bottom: -60px;
+    }
+
+    .headerContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headerText {
+        font-size: 16px;
+        font-family: westernFont;
+        letter-spacing: 2px;
+    }
+
+    .headerDescription {
+        font-family: nandakaFont;
+        letter-spacing: 3px;
+        font-size: 8px;
+    }
+
+    .inputContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .categoryLbl {
+        font-size: 12px;
+    }
+
+    select {
+        font-size: 12px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    label {
+        font-family: westernFont;
+    }
+
+    .getJokes {
+        font-family: westernFont;
+        letter-spacing: 2px;
+        font-size: 12px;
+        margin-left: 10px;
+        width: 100px;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .jokes-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .jokes-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .joke {
+        font-size: 20px;
+        font-family: candleFont;
+        text-align: center;
+        font-family: westernFont;
+        letter-spacing: 5px;
+    }
+
+    .srcJoke {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 30px;
+        color: black;
+    }
+
+    a {
+        color: black;
+        font-size: 8px;
+    }
+
+    footer {
+        font-size: 10px;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 1px;
+        margin-top: 10vh;
+        text-align: center;
+    }
+
+    .footerText {
+        font-size: 13px;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 20px;
+        letter-spacing: 2px;
+    }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chucknorris Jokes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/chucknorris-white.png">
+</head>
+
+<body>
+    <header>
+        <img src="images/chucknorris-white.png" alt="">
+        <div class="headerContent">
+            <div class="headerContainer">
+                <h1 class="headerText">RANDOM CHUCKNORRIS JOKES</h1>
+                <p class="headerDescription">Generate a random Chuck Norris jokes, you can selected the category for the
+                    jokes!</p>
+            </div>
+            <div class="inputContainer">
+                <form id="myForm">
+                    <label class="categoryLbl" for="categories">Choose category: </label>
+                    <select name="categories" id="categories">
+                        <!-- <option value="animal">animal</option>
+                        <option value="career">career</option>
+                        <option value="celebrity">celebrity</option>
+                        <option value="dev">dev</option>
+                        <option value="explisit">explisit</option>
+                        <option value="fashion">fashion</option>
+                        <option value="food">food</option>
+                        <option value="history">history</option>
+                        <option value="money">money</option>
+                        <option value="movie">movie</option>
+                        <option value="music">music</option>
+                        <option value="political">political</option>
+                        <option value="religion">religion</option>
+                        <option value="science">science</option>
+                        <option value="sport">sport</option>
+                        <option value="travel">travel</option> -->
+                    </select>
+                    <input class="getJokes" type="submit" value="GET JOKES">
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <div class="jokes-container">
+        <div class="jokes-content">
+            <h1 id="joke" class="joke">CHOOSE JOKES CATEGORY AND GET CHUCKNORRIS JOKES!</h1>
+            <a id="source" class="srcJoke" href="#" target="_blank"></a>
+        </div>
+    </div>
+
+    <footer>
+        <h1>Develop by Fedry Alvindra</h1>
+        <p class="footerText">This joke is connected to <a class="footerText" href="https://api.chucknorris.io/" target="_blank">Chuck Norris API</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
